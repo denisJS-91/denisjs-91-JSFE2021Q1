@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Virtual Piano</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1>VIRTUAL PIANO</h1>
+      </div>
+    </header>
+    <section class="section">
+      <div class="btn-container">
+        <button class="btn btn-notes btn-active">Notes</button>
+        <button class="btn btn-Keyboard">Keyboard</button>
+      </div>
+      <button class="fullscreen" onclick="fullscreen()"></button>
+      <div class="piano">
+        <div class='piano1'>
+
+          <div class="key key-w" data-note="C" data-key="z"></div>
+          <div class="key key-b" data-note="Cs" data-key="s"></div>
+          <div class="key key-w" data-note="D" data-key="x"></div>
+          <div class="key key-b" data-note="Ds" data-key="d"></div>
+          <div class="key key-w" data-note="E" data-key="c"></div>
+          <div class="key key-w" data-note="F" data-key="v"></div>
+          <div class="key key-b" data-note="Fs" data-key="g"></div>
+          <div class="key key-w" data-note="G" data-key="b"></div>
+          <div class="key key-b" data-note="Gs" data-key="h"></div>
+          <div class="key key-w" data-note="A" data-key="n"></div>
+          <div class="key key-b" data-note="As" data-key="j"></div>
+          <div class="key key-w" data-note="B" data-key="m"></div>
+        </div>
+      </div>
+
+      <div class="div">
+       
+      </div>
+    </section>
+    <footer class="footer">
+      <div>
+        <a class="footer-copyright" href="https://github.com/denisJS-91">
+          <div class="github-logo"></div>
+        </a>
+      </div>
+      <p class="footer-copyright">© 2021 Copyright Text</p>
+      <div>
+        <a class="footer-copyright" href="https://rs.school/js/">
+          <div class="rss-logo"></div>
+        </a>
+      </div>
+    </footer>
+    <script defer src="./index.js"></script>
+  </body>
+</html>

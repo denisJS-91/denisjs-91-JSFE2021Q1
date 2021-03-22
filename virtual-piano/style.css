@@ -1,0 +1,212 @@
+body{
+    margin: 0 auto;
+    padding: 0px;
+    font-size: 14px;
+    line-height: 1;
+    color: #373737;
+    background: #f7f7f7;
+}
+h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0px;
+}
+.header{
+    width: 100%;
+    background-color: darkslategray;
+    padding: 15px 0;
+
+}
+.container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+    padding: 0 15px;
+    text-align: center;
+}
+.container h1{
+    color: gold;
+    text-shadow: rgb(238, 16, 16);
+}
+.section{
+    width: 100%;
+    height: 580px;
+    background-color: darkslategray;
+    box-sizing: border-box;
+    border-top: 3px solid gold;
+    border-bottom: 3px solid gold;
+
+}
+.btn-container{
+display: flex;
+justify-content: center;
+width: 400px;
+height: 40px;
+margin: 0 auto;
+padding-top: 40px;
+}
+.btn{
+    width: 100px;
+    height: 35px;
+    padding: 0 10px;
+    background-color: #0c0c0c;
+    border: 6;
+    border-radius: 3px;
+    user-select: none;
+    color: gold;
+    font-family: 'Franklin Gothic Medium';
+    transition: 0.3s;
+}
+.btn:not(.btn-active):hover {
+    background-color: red; 
+  }
+  .btn-active:hover {
+    background-color: red;
+  }
+  .fullscreen {
+    position: absolute;
+    top: 74px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: darkslategray;
+    border: 0;
+    outline: 0;
+    background-size: contain;
+    transition: 0.3s;
+    cursor: pointer;
+    background-image: url(./assets/fons/icon\ fullscren.png);
+  }
+  .fullscreen:hover {
+    background-color: red;
+  }
+  :-webkit-full-screen .fullscreen:hover {
+    background-image: url(./assets/fons/fullscreen-exit.svg);
+    background-color: red;
+  }
+.piano{
+    width: 700px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+}
+.key{
+    width: 100px;
+    height: 100%;
+    border: 4px solid #000;
+    border-radius: 0 0 10px 10px;
+    cursor: pointer;
+    box-shadow: inset -3px -3px 10px #000;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+    background: #f7f7f7f1;
+    user-select: none;
+    transition: .2s;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    transition: 0.3s;
+}
+.key-b{
+    width: 80px;
+    background: #000;
+    font-size: 20px;
+    color: #f7f7f7;
+    height: 55%;
+    margin-left: -40px;
+    margin-right: -40px;
+    z-index: 2;
+    transition: 0.3s;
+}
+ .key-w:active{
+    background-color: gold;
+    user-select: none;
+    transition: 0.3s;
+} 
+.piano1 {
+  width: 700px;
+  height: 400px;
+  margin: 0 auto;
+  display: flex;
+}
+.active {
+  background-color: gold;
+  user-select: none;
+  transition: 0.3s;
+}
+.key-w:hover{
+  color: gold;
+  text-transform: lowercase;
+  user-select: none;
+  transition: 0.3s;
+}
+.key-b:active{
+    background-color: darkslategray;
+    user-select: none;
+    transition: 0.3s;
+}
+.key-b:hover{
+  color: gold;
+  text-transform: lowercase;
+  user-select: none;
+  transition: 0.3s;
+}
+.footer{
+    width: 100%;
+    background-color: darkslategray;
+    padding: 15px 0;
+    justify-content: space-around;
+    display: flex;
+}
+.footer-container{
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #eee; 
+  }
+  .footer-copyright {
+    height: 100%; 
+    text-align: center;
+    color: gold;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium';
+    padding-top: 25px;
+  }
+  
+  .footer-container div:first-child {
+    margin-left: 25px;
+  }
+  
+  .footer-container div:last-child {
+    margin-right: 25px;
+  }
+  
+  .github-logo {
+    background: url('./assets/fons/github.png');
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    transition: 0.2s;
+  }
+  
+  .github-logo:hover{
+    background: url('./assets/fons/github-hover.png');
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    transition: 0.2s;
+  }
+  .rss-logo{
+    background: url(./assets/fons/rs_school_js.svg);
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
