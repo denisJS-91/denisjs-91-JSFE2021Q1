@@ -56,7 +56,7 @@ a {
 }
 .nav_h{
 padding-top: 32px;
-margin-left: 52px;
+margin-left: 53px;
 }
 .nav_h a:nth-child(2) {
   position: relative;
@@ -93,20 +93,13 @@ margin-left: 52px;
   margin-left: 60px;
   text-align: center;
 }
-/* Сайдбар ссылки */
 .sidebar button {
   display: block;
   color: black;
   padding: 18px;
   text-decoration: none;
 }
-/* Активная/текущая ссылка */
-.sidebar button.active {
-  /* background-color: #4CAF50;*/
-   color: white;
- }
- 
- /* Ссылки при наведении мыши */
+
  .sidebar button:hover:not(.active) {
    background-color: #555;
    color: white;
@@ -176,6 +169,21 @@ line-height: 106px;
 color: #080029;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 padding-top: 24px;
+}
+.btns{
+  padding-top: 61px;
+}
+.btns button:nth-child(2){
+  padding-left: 59px;
+}
+.panda{
+  background-image: url(/online-zoo/assets/images/ph.svg);
+  width: 696px;
+  height: 673px;
+  border-radius: 4px;
+  position: relative;
+  top: 55px;
+  left: 39px;
 }
 .header {
   width: 1920px;
