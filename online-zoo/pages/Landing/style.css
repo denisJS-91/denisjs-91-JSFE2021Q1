@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body {
   font-family: "Rubik","Merriweather";
-  color: #cd6326 #333333 #666666 #f7f7f7;
+  color: #cd6326 #333333 #666666 #f7f7f7 #080029 ;
   padding: 0;
   margin: 0px;
 }
@@ -17,6 +17,133 @@ a {
   padding: 0px;
   margin: 0px;
 }
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav a {
+  text-decoration: none;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #080029;
+  margin-left: 130px;
+}
+.logo {
+  display: flex;
+  height: 45px;
+  position: fixed;
+  margin-left: 13px;
+  margin-top: 23px;
+  position: fixed;
+}
+.container-title {
+  width: 1800px;
+  height: 90px;
+  display: flex;
+  border: 2px solid #F0F0F0;
+  box-sizing: border-box;
+  backdrop-filter: blur(5px);
+  margin-left: 60px;
+  margin-top: 25px;
+}
+.profile{
+  display: flex;
+  height: 50px;
+  padding-left: 661px;
+  padding-top: 17px;
+}
+.nav_h{
+padding-top: 32px;
+margin-left: 52px;
+}
+.nav_h a:nth-child(2) {
+  position: relative;
+  left: -2px;
+}
+.nav_h a:nth-child(3) {
+  position: relative;
+  left: -5px;
+}
+.nav_h a:nth-child(4) {
+  position: relative;
+  left: -9px;
+}
+.nav_h a:nth-child(5) {
+  position: relative;
+  left: -12px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.soc_link{
+  padding-top: 231px;
+}
+.sidebar {
+  width: 90px;
+  height: 760px;
+  margin: 0;
+  padding: 0;
+  background: rgba(252, 252, 252, 0.02);
+  border: 2px solid #F0F0F0;
+  box-sizing: border-box;
+  backdrop-filter: blur(5px);
+  position: fixed;
+  overflow: auto;
+  margin-left: 60px;
+  text-align: center;
+}
+/* Сайдбар ссылки */
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+/* Активная/текущая ссылка */
+.sidebar a.active {
+  /* background-color: #4CAF50;*/
+   color: white;
+ }
+ 
+ /* Ссылки при наведении мыши */
+ .sidebar a:hover:not(.active) {
+   background-color: #555;
+   color: white;
+ }
+
+ .sidebar a:nth-child(2){
+  position: relative;
+  top: 7px;
+ }
+ .sidebar a:nth-child(3){
+  position: relative;
+  top: 21px;
+ }
+
+ .sidebar a:nth-child(4){
+  position: relative;
+  top: 84px;
+ }
+
+/* На экранах шириной менее 700 пикселей превратить боковую панель в верхнюю панель */
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+/* На экранах размером менее 400 пикселей панель отображать вертикально, а не горизонтально */
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
 .header {
   width: 1920px;
   /*height: 779px;
@@ -37,10 +164,7 @@ a {
   width: 1200px;
   justify-content: space-between;
 }
-.logo {
-  display: flex;
-  height: 60px;
-}
+
 .logo span {
   padding-left: 15px;
   text-align: center;
