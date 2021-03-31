@@ -76,7 +76,7 @@ margin-left: 53px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .soc_link{
-  padding-top: 229px;
+  display: inline;
   text-align: -webkit-center;
 }
 .sidebar {
@@ -89,12 +89,15 @@ margin-left: 53px;
   box-sizing: border-box;
   backdrop-filter: blur(5px);
   position: fixed;
-  overflow: auto;
+  overflow-x: hidden;
+  z-index: 1;
+  top: 26px;
+  left: 0;
   margin-left: 60px;
   text-align: center;
 }
 .sidebar button {
-  display: block;
+  display: flex;
   color: black;
   padding: 18px;
   text-decoration: none;
@@ -105,18 +108,30 @@ margin-left: 53px;
    color: white;
  }
 
+ .sidebar button:nth-child(1){
+  position: relative;
+  left: -5px;
+  border-bottom: 2px solid #F0F0F0;
+  padding-top: 22px;
+  padding-bottom: 13px;
+}
+
  .sidebar button:nth-child(2){
   position: relative;
-  top: 3px;
+  margin-top: 231px;
  }
  .sidebar button:nth-child(3){
   position: relative;
-  top: 13px;
+  top: 4px;
  }
 
  .sidebar button:nth-child(4){
   position: relative;
-  top: 73px;
+  top: 14px;
+ }
+ .sidebar button:nth-child(5){
+  position: relative;
+  top: 74px;
  }
 
 /* На экранах шириной менее 700 пикселей превратить боковую панель в верхнюю панель */
@@ -141,7 +156,7 @@ margin-left: 53px;
 .first_screen{
   display: flex;
   width: 1920px;
-  height: 870px;
+  height: 865px;
 }
 .usp{
   display: inline;
@@ -150,7 +165,7 @@ margin-left: 53px;
   margin-left: 243px;
   margin-top: 132px;
 }
-h1{
+.usp p{
 font-family: Rubik;
 font-style: normal;
 font-weight: normal;
@@ -160,7 +175,7 @@ letter-spacing: 0.115em;
 color: #626262;
 }
 
-h2{
+.usp h1{
 font-family: Merriweather;
 font-style: normal;
 font-weight: bold;
@@ -174,7 +189,7 @@ padding-top: 24px;
   padding-top: 61px;
 }
 .btns button:nth-child(2){
-  padding-left: 59px;
+  margin-left: 59px;
 }
 .panda{
   background-image: url(/online-zoo/assets/images/ph.svg);
@@ -184,6 +199,155 @@ padding-top: 24px;
   position: relative;
   top: 55px;
   left: 39px;
+}
+
+.second_screen{
+  display: flex;
+  width: 1920px;
+ height: 870px;
+ background: #FCFCFC;
+}
+.ph{
+ display: flex;
+ width: 512px;
+height: 760px;
+margin-left: 245px;
+}
+.about{
+  display: inline;
+  width: 696px;
+  height: 477px;
+  margin-left: 222px;
+  margin-top: 140px;
+}
+.about h1{
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 26px;
+letter-spacing: 0.115em;
+color: #0B0B0B;
+}
+.about h2{
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 52px;
+  color: #080029;
+  margin-top: 50px;
+}
+.about p{
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+color: #747474;
+margin-top: 39px;
+}
+.about button{
+  margin-top: 60px;
+}
+.famous_pets{
+display: flex;
+width: 1920px;
+height: 896px;
+background: #D9E8FF;
+}
+.slider_text{
+  width: 356px;
+  margin-left: 244px;
+  margin-top: 318px;
+  height: 364px;
+}
+.slider_text p{
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.115em;
+  color: #0B0B0B;
+}
+.slider_text h1{
+  height: 157px;
+  width: 283px;
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 52px;
+  color: #080029;
+  margin-top: 50px;
+}
+.click{
+  display: inline;
+  position: relative;
+  top: 54px;
+}
+.click button:nth-child(2){
+  margin-left: 16px;
+}
+.animal_cards{
+  width: 1310px;
+  height: 696px;
+  margin-top: 100px;
+  margin-left: 13px;
+}
+.animal{
+  width: 328px;
+  height: 328px;
+  border-radius: 5px;
+  float: left;
+  display: flex;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+.fourth_screen{
+display: flex;
+width: 1920px;
+height: 1300px;
+background: #FCFCFC;
+}
+.fourth_screen p{
+display: flex;
+height: 26px;
+margin-left: 428px;
+margin-top: 101px;
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 26px;
+letter-spacing: 0.115em;
+color: #0B0B0B;
+}
+/*.animal_2{
+  width: 328px;
+  height: 328px;
+  border-radius: 5px;
+}
+.animal_3{
+  width: 328px;
+  height: 328px;
+  border-radius: 5px;
+}
+.animal_4{
+  width: 328px;
+  height: 328px;
+  border-radius: 5px;
+}
+.animal_5{
+  width: 328px;
+  height: 328px;
+  border-radius: 5px;
+}
+.animal_6{
+  width: 328px;
+  height: 328px;
+  border-radius: 5px;
 }
 .header {
   width: 1920px;
