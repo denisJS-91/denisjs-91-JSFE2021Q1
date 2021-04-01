@@ -308,35 +308,39 @@ background: #D9E8FF;
   display: flex;
   margin-right: 40px;
   margin-bottom: 40px;
-  transition: 0.5s;
+  transition: 1s;
 }
 
 .animal:nth-child(1):hover {
   background-image: url('/online-zoo/assets/images/hover\ 1.png');
-  transition: 0.5s;
+  transition: 1s;
 }
 .animal:nth-child(2):hover {
   background-image: url('/online-zoo/assets/images/hover\ 2.png');
-  transition: 0.5s;
+  transition: 1s;
 }
 .animal:nth-child(3):hover {
   background-image: url('/online-zoo/assets/images/hover\ 3.png');
-  transition: 0.5s;
+  transition: 1s;
 }
 .animal:nth-child(4):hover {
   background-image: url('/online-zoo/assets/images/hover\ 4.png');
-  transition: 0.5s;
+  transition: 1s;
 }
 .animal:nth-child(5):hover {
   background-image: url('/online-zoo/assets/images/hover\ 5.png');
-  transition: 0.5s;
+  transition: 1s;
 }
 .animal:nth-child(6):hover {
   background-image: url('/online-zoo/assets/images/hover\ 6.png');
-  transition: 0.5s;
+  transition: 1s;
 }
 .animal img:hover {
+  transition: 1s;
   opacity: 0;
+}
+.animal img {
+  transition: 1s;
 }
 .pay{
   display: flex;
@@ -368,15 +372,16 @@ color: #0B0B0B; */
   height: 322px;
   position: relative;
   left: -120px;
-  top: 54px;
+  top: 32px;
 }
 
 .pay_wrapper {
   width: 100%;
-  height: 415px;
+  height: auto;
   display:flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 .pay_title-container p {
   font-family: Rubik;
@@ -433,14 +438,19 @@ line-height: 52px;
   justify-content: center;
     align-items: center;
     position: relative;
-    left: 164px;
+    left: 43px;
     bottom: 26px;
 }
 .payment{
   display: flex;
-  flex-direction: column;
-  width: 824px;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items:center;
+  width: 100%;
   height: 322px;
+  position: relative;
+  top: -110px;
+  left: -153px;
 }
 .payment_vector{
   display: flex;
@@ -451,6 +461,7 @@ line-height: 52px;
   right: 2px;
   justify-content: flex-end;
   align-items: center;
+
 }
 .payment_wrapper{
   display: flex;
@@ -458,6 +469,32 @@ line-height: 52px;
   height: 260px;
   flex-direction: row;
   justify-content: space-between;
+}
+.lock_wrapper{
+  display: flex;
+    height: 201px;
+    flex-direction: column;
+}
+.lock_wrapper h1{
+  width: 338px;
+  height: 52px;
+  color: #0F0049;
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 52px;
+}
+.lock_wrapper h2{
+  width: 456px;
+  height: 84px;
+  margin-top: 29px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #747474;
 }
 /*.animal_2{
   width: 328px;
