@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body {
+  width: 1920px;
   font-family: "Rubik","Merriweather";
   color: #cd6326 #333333 #666666 #f7f7f7 #080029 ;
   padding: 0;
@@ -343,7 +344,6 @@ background: #D9E8FF;
 }
 .fourth_screen{
 display: flex;
-width: 1920px;
 height: 1300px;
 background: #FCFCFC;
 }
@@ -364,54 +364,100 @@ color: #0B0B0B; */
 .pay_title-container {
   display: flex;
   flex-direction: column;
-  width: 807px;
+  width: 824px;
+  height: 322px;
   position: relative;
-  left: 20px;
-  height: 214px; 
+  left: -120px;
+  top: 54px;
 }
 
 .pay_wrapper {
   width: 100%;
-  height: 500px;
+  height: 415px;
   display:flex;
   justify-content: center;
   align-items: center;
 }
 .pay_title-container p {
-  margin-top: 10px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.115em;
+  color: #0B0B0B;
 }
 .pay_container {
-  width: 807px;
-  height: 214px; 
+  width: 907px;
+  height: 313px; 
   display:flex;
   flex-direction: row;
   justify-content: space-between;
+  position: relative;
+    top: 29px;
 }
 
 .lock{
-  
+  height: 201px;
+  position: relative;
+  top: 56px;
+  left: -83px;
   display: flex;
   flex-direction: column;
 }
 
-.lock p {
-width: 456px;
+.lock h2 {
+  width: 456px;
 height: 84px;
+margin-top: 29px;
   font-family: Rubik;
   font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 154%;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  color: #747474;
 }
 .lock h1 {
   width: 338px;
 height: 52px;
- 
+color: #0F0049;
 font-family: Merriweather;
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
 line-height: 52px;
+}
+.pay_vector{
+  display: flex;
+  height: 197px;
+  justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 164px;
+    bottom: 26px;
+}
+.payment{
+  display: flex;
+  flex-direction: column;
+  width: 824px;
+  height: 322px;
+}
+.payment_vector{
+  display: flex;
+  height: 197px;
+  width: 529px;
+  position: relative;
+  top: 134px;
+  right: 2px;
+  justify-content: flex-end;
+  align-items: center;
+}
+.payment_wrapper{
+  display: flex;
+  width: 810px;
+  height: 260px;
+  flex-direction: row;
+  justify-content: space-between;
 }
 /*.animal_2{
   width: 328px;
