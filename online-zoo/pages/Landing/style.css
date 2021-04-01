@@ -192,7 +192,7 @@ padding-top: 24px;
   margin-left: 59px;
 }
 .panda{
-  background-image: url(/online-zoo/assets/images/ph.svg);
+  background-image: url(/online-zoo/assets/images/Panda\ Lending.png);
   width: 696px;
   height: 673px;
   border-radius: 4px;
@@ -208,9 +208,11 @@ padding-top: 24px;
  background: #FCFCFC;
 }
 .ph{
+  background-image: url(/online-zoo/assets/images/Lion\ Lending.png);
  display: flex;
  width: 512px;
 height: 760px;
+border-radius: 4px;
 margin-left: 245px;
 }
 .about{
@@ -308,8 +310,28 @@ background: #D9E8FF;
   transition: 0.5s;
 }
 
-.animal:hover {
-  background-image: url('../../assets/images/animal_card\ 6.svg');
+.animal:nth-child(1):hover {
+  background-image: url('/online-zoo/assets/images/hover\ 1.png');
+  transition: 0.5s;
+}
+.animal:nth-child(2):hover {
+  background-image: url('/online-zoo/assets/images/hover\ 2.png');
+  transition: 0.5s;
+}
+.animal:nth-child(3):hover {
+  background-image: url('/online-zoo/assets/images/hover\ 3.png');
+  transition: 0.5s;
+}
+.animal:nth-child(4):hover {
+  background-image: url('/online-zoo/assets/images/hover\ 4.png');
+  transition: 0.5s;
+}
+.animal:nth-child(5):hover {
+  background-image: url('/online-zoo/assets/images/hover\ 5.png');
+  transition: 0.5s;
+}
+.animal:nth-child(6):hover {
+  background-image: url('/online-zoo/assets/images/hover\ 6.png');
   transition: 0.5s;
 }
 .animal img:hover {
@@ -389,8 +411,7 @@ font-family: Merriweather;
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
-line-height: 145%;
-/* or 52px */
+line-height: 52px;
 }
 /*.animal_2{
   width: 328px;
