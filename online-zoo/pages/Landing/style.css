@@ -941,5 +941,21 @@ left: 45px;
   display: flex;
   width:1432px;
   border-top: 1px solid #747474;
-
+}
+.copyrights_text{
+  display: flex;
+  width:1432px;
+  height: 72px;
+  align-items: flex-end;
+}
+.copyrights_text p{
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #BCBCBC;
+}
+.copyrights_text p:nth-child(2){
+  margin-left: 816px;
 }
