@@ -752,11 +752,13 @@ height: 84px;
   display: flex;
   height: 766px;
   background:#0B0B0B;
+  flex-direction: column;
+  align-items: center;
 }
 .footer_wrapper{
   display: flex;
   width: 100%;
-  height: 620px;
+  height: 634px;
 }
 .logs{
   display: flex;
@@ -824,4 +826,120 @@ height: 84px;
 
 .rs_school:hover .tooltiptext {
   visibility: visible;
+}
+
+.navigation{
+display: flex;
+width: 511px;
+height: 534px;
+align-items: center;
+flex-direction: column;
+}
+.navigation h1{
+  font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 26px;
+letter-spacing: 0.115em;
+color: #FCFCFC;
+position: relative;
+    top: 101px;
+}
+.nav_link{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 135px;
+  height: 363px;
+  position: relative;
+  top: 110px;
+}
+.nav_link a{
+  font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 154%;
+margin-top: 31px;
+color: #BCBCBC;
+text-decoration: none;
+}
+.support{
+  display: flex;
+  width: 524px;
+  height: 489px;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  left: 137px;
+  top: 102px;
+}
+.support_donate{
+  display: flex;
+  width: 345px;
+  height: 263px;
+  align-items: center;
+  flex-direction: column;
+}
+.support_donate h2{
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.115em;
+  color: #FCFCFC;
+  position: relative;
+    right: 32px;
+    bottom: 1px;
+}
+.support_donate p{
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  color: #BCBCBC;
+  position: relative;
+  top: 44px;
+  left: 2px;
+}
+.support_donate button{
+  position: relative;
+  top: 84px;
+    left: -1px;
+}
+.support_contact{
+  display: flex;
+  width: 377px;
+  height: 26px;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+  top: 76px;
+  left: 19px;
+}
+.support_contact a{
+  font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #BCBCBC;
+text-decoration: none;
+}
+.support_contact a:nth-child(2){
+position: relative;
+left: 45px;
+}
+.support_contact a:nth-child(3){
+  position: relative;
+  left: 91px;
+}
+.copyrights{
+  display: flex;
+  width:1432px;
+  border-top: 1px solid #747474;
+
 }
