@@ -630,7 +630,124 @@ position: relative;
 .list button:nth-child(2) {
   margin-left: 20px;
 }
+.sixth_screen{
+  display: flex;
+  height: 862px;
+  background: #FCFCFC;
+}
 
+.Zoogeography{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+.map_animal{
+  display: flex;
+  align-items: center;
+  width: 608px;
+  height: 669px;
+  flex-direction: column;
+}
+.map_animal h1{
+  font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 26px;
+letter-spacing: 0.115em;
+color: #000000;
+position: relative;
+left: 29px;
+top: 4px;
+}
+.animal_card{
+  width: 344px;
+height: 512px;
+background: #FCFCFC;
+box-shadow: 4px 12px 22px rgba(0, 0, 0, 0.06);
+border-radius: 15px;
+position: relative;
+text-align: center;
+    top: 65px;
+    left: 112px;
+}
+.animal_card h2{
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 52px;
+  text-align: center;
+  color: #080029;
+  position: relative;
+  top: 17px;
+}
+.animal_card p{
+  width: 264px;
+height: 84px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #747474;
+  position: relative;
+    top: 36px;
+    left: 40px;
+}
+.animal_card a{
+  position: relative;
+    top: 88px;
+    left: 3px;
+}
+.animal_card img{
+  border-radius: 15px 15px 0 0;
+}
+.about_animal{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  height: 275px;
+}
+.map{
+  display: flex;
+  width: 1217px;
+  height: 699px;
+  position: relative;
+  top: -32px;
+  left: 4px;
+  background-image: url(/online-zoo/assets/fonts/world.png);
+}
+.map a:nth-child(1){
+  display: flex;
+  height: 176px;
+  position: relative;
+  top: 150px;
+  left: 107px;
+}
+.map a:nth-child(2){
+  display: flex;
+  height: 138px;
+  position: relative;
+  top: 204px;
+  left: 112px;
+}
+.map a:nth-child(3){
+  display: flex;
+  height: 134px;
+  position: relative;
+  top: 332px;
+  left: 317px;
+}
+.map a:nth-child(4){
+  display: flex;
+  height: 133px;
+  position: relative;
+  left: 522px;
+  top: 194px;
+}
 /*.animal_2{
   width: 328px;
   height: 328px;
